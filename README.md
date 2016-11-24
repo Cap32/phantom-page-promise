@@ -47,7 +47,7 @@ Just like `page.evaluateJavaScript`, but could evaluate and return a promise.
 
 ###### Available options:
 
-- `timeout` (Number): Specify timeout of execution. If timeout before the promise return, it would throw a `TIMEOUT` error. Defaults to 1000(ms).
+- `timeout` (Number): Specify timeout of execution. If timeout before the promise return, it would throw a `TIMEOUT` error. Defaults to 10000(ms).
 - `delay` (Number): Specify delay of execution. Defaults to 0(ms).
 - `args` ([Any]): Specify arguments to the function. Only work if the type of `codeOrFunction` is `Function`.
 
