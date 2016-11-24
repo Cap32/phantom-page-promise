@@ -27,8 +27,8 @@ const init = async () => {
 
     console.log(result); // 'it works'
 
-    ph && ph.exit();
-    page && page.close();
+    ph.exit();
+    page.close();
 };
 
 init();
