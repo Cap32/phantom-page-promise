@@ -5,7 +5,7 @@ An phantomjs-node extension that make phantom page support promise.
 ## Usage
 
 ```js
-import './phantom-page-promise';
+import 'phantom-page-promise';
 import phantom from 'phantom';
 
 const init = async () => {
