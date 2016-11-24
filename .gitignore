@@ -10,3 +10,4 @@ Thumbs.db
 logs
 node_modules
 dist
+lib
