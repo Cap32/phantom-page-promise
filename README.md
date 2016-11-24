@@ -42,14 +42,14 @@ Just like `page.evaluateJavaScript`, but could evaluate and return a promise.
 
 ###### Arguments
 
-1. codeOrFunction (String|Function): Evaluate a function or function contained in a string.
-2. options (Object): See below for detail.
+1. `codeOrFunction` (String|Function): Evaluate a function or function contained in a string.
+2. `options` (Object): See below for detail.
 
 ###### Available options:
 
-- timeout (Number): Specify timeout of execution. If timeout before the promise return, it would throw a `TIMEOUT` error. Defaults to 1000(ms).
-- delay (Number): Specify delay of execution. Defaults to 0(ms).
-- args ([Any]): Specify arguments to the function. Only work if the type of `codeOrFunction` is `Function`.
+- `timeout` (Number): Specify timeout of execution. If timeout before the promise return, it would throw a `TIMEOUT` error. Defaults to 1000(ms).
+- `delay` (Number): Specify delay of execution. Defaults to 0(ms).
+- `args` ([Any]): Specify arguments to the function. Only work if the type of `codeOrFunction` is `Function`.
 
 ###### Return
 
