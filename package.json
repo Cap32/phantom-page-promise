@@ -1,0 +1,32 @@
+{
+  "name": "phantom-page-promise",
+  "version": "0.0.0",
+  "description": "An phantomjs-node extension that make phantom page support promise. ",
+  "main": "lib/index.js",
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "author": "cap32",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.8.1",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^2.2.0",
+    "phantom": "^3.0.2",
+    "rimraf": "^2.5.4"
+  },
+  "dependencies": {
+    "promise-polyfill": "^6.0.2"
+  },
+  "peerDependencies": {
+    "phantom": "^3.0.0"
+  }
+}
