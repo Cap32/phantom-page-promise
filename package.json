@@ -1,7 +1,7 @@
 {
   "name": "phantom-page-promise",
   "version": "0.0.0",
-  "description": "An phantomjs-node extension that make phantom page support promise. ",
+  "description": "A phantomjs-node extension that make phantom page support promise. ",
   "main": "lib/index.js",
   "scripts": {
     "prebuild": "rimraf lib",
