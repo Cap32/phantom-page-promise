@@ -1,6 +1,6 @@
 # phantom-page-promise
 
-An phantomjs-node extension that make phantom page support promise.
+A phantomjs-node extension that make phantom page support promise.
 
 ## Usage
 
