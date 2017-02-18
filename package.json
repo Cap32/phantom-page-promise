@@ -8,6 +8,10 @@
     "build": "babel src -d lib",
     "prepublish": "npm run build"
   },
+  "keywords": [
+    "phantom",
+    "promise"
+  ],
   "author": "cap32",
   "license": "MIT",
   "devDependencies": {
