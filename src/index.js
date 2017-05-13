@@ -70,14 +70,14 @@ Page.prototype.evaluatePromise = async function (src, options = {}) {
 
 	const execMain = new Promise((resolve, reject) => {
 		const done = (data) => {
-			this.off('onCallback', done);
-
 			if (!data) { return; }
 
 			if (data[CALL_PHANTOM_FULFILLED]) {
+				this.off('onCallback');
 				resolve(data[CALL_PHANTOM_FULFILLED]);
 			}
 			else if (data[CALL_PHANTOM_REJECTED]) {
+				this.off('onCallback');
 				reject(data[CALL_PHANTOM_REJECTED]);
 			}
 		};
